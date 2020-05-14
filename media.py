@@ -9,7 +9,7 @@ class Media:
     def download_image(self):
         url = 'https://picsum.photos/720/1280/?random'
         r = requests.get(url = url)
-        with open("downloaded_bg.png", 'wb') as f:
+        with open("bg.jpg", 'wb') as f:
             f.write(r.content)
         print("download finished")
 
