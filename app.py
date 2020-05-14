@@ -1,4 +1,4 @@
-from twitter import Twitter #pancing heroku
+from twitter import Twitter #pancing ke heroku
 import time
 from media import Media
 
